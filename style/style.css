@@ -425,6 +425,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -578,7 +580,7 @@ body {
     flex-wrap: wrap;
     margin-top: 5rem;
     background-color: var(--soft-blue);
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     color: var(--white);
 }
 
@@ -888,6 +890,11 @@ body {
     .card-extension:nth-child(3) {
         margin-top: 2rem;
     }
+
+    .features-text {
+        margin: 0 1rem;
+    }
+
 }
 
 @media(max-width: 600px) {
